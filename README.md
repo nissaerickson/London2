@@ -1,5 +1,3 @@
-# Turtles 2
+# S. London Schertzer
 
-This was my first try at adding columns to a webpage
-
-https://nissaerickson.github.io/Turtles2/
+This will be a photographers website.
