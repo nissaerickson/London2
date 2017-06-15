@@ -15,7 +15,7 @@
         text-align: center;
         float: left;
         color: #fff;
-        margin: 30px, 0 px, 10px, 0px;
+        margin: 30px, 0 px, 10px, 10px;
     }
     
     h2 {
@@ -41,7 +41,8 @@ font-family: 'Crimson Text', serif;
     /* Email link style */
     
     a[href^="mailto:"] {
-        color: ;
+        color: #fff;
+        text-decoration: none;
     }
     /* page dividers */
     
@@ -136,7 +137,7 @@ header nav a {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
     color: #fff;
-    margin-left: 30px;
+    margin-left; 30px;
     text-decoration: none;
 }
 header nav a:link {
