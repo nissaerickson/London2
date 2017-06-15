@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Source+Sans+Pro:600');
+    /* header */
+    
+    header,
+    footer {
+        background-color: #000;
+        text-align: center;
+        color: #fff;
+        margin: 10px, 0px, 10px, 0px;
+    }
+    
+    h1 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 40px;
+        text-align: center;
+        float: left;
+        color: #fff;
+        margin: 30px, 0 px, 10px, 0px;
+    }
+    
+    h2 {
+        font-family: 'Crimson Text', serif;
+        font-size: 30px;
+        text-align: left;
+        color: #000;
+    }
+    
+    p {
+        font-family: 'Crimson Text', serif;
+        font-size: 20px;
+        text-align: left;
+        color: #000;
+    }
+
+footer p {
+font-family: 'Crimson Text', serif;
+        font-size: 20px;
+        text-align: left;
+        color: #fff;    
+}
+    /* Email link style */
+    
+    a[href^="mailto:"] {
+        color: ;
+    }
+    /* page dividers */
+    
+    hr {
+        height: px;
+        background-color: ;
+        border: ;
+        /* size style color */
+    }
+
+
+/* -------- =Structure -------*/
+* {
+   box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  width: 980px;
+  margin: auto;
+}
+
+.container-fluid {
+  width: 100%;
+  min-width: 760px; /* Adjust as needed */
+}
+
+/* -------- =Column Layout -------*/
+
+.col-1  {  width: 8.33333333%;   }
+.col-2  {  width: 16.66666667%;  }
+.col-3  {  width: 25%;           }
+.col-4  {  width: 33.33333333%;  }
+.col-5  {  width: 41.66666667%;  }
+.col-6  {  width: 50%;           }
+.col-7  {  width: 54.33%;        }
+.col-8  {  width: 66.66666667%;  }
+.col-9  {  width: 75%;           } 
+.col-10 {  width: 83.33333333%;  }
+.col-11 {  width: 91.66666667%;  }
+.col-12 {  width: 100%;          }
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+  float: left;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.row:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+/*--floats--*/
+.float-left {
+    float: left;
+    margin-right: 10px;
+}
+.float-right {
+    float: right;
+    margin-left: 10px;
+}
+
+/*--clear fix hack--*/
+.row:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+/* ----- =navigation ----- */
+header nav {
+    float: right;
+    margin-top: 50px;
+}
+header nav a {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    margin-left: 30px;
+    text-decoration: none;
+}
+header nav a:link {
+    color: #fff;
+}
+header nav a:visited {
+    color: #44c0ea;
+}
+header nav a:hover {
+    color: #16f4e5;
+}
+header nav a:active {
+    color: #165df7;
+}
+footer nav a {
+    float: right;
+    margin: ;
+}
+
+/*----images---*/
+.scroll {
+    background-attachment: scroll;
+}
+.fixed {
+    background-attachment: fixed;
+}
+.full-width-image {
+    height: 300px;
+    background-image: url(images/Flowers/TruckMulticolorFlowers.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0px;
+}
+main {
+    margin: auto;
+}
