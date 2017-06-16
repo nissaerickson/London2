@@ -1,5 +1,4 @@
-    @import url('https://fonts.googleapis.com/css?family=Crimson+Text|Source+Sans+Pro:600');
-
+@import url('https://fonts.googleapis.com/css?family=Philosopher|Source+Sans+Pro');
 /* header footer*/
 
 header,
@@ -31,14 +30,14 @@ footer p {
 /* main */
 
 h2 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Philosopher', sans-serif;
     font-size: 30px;
     text-align: left;
     color: #000;
 }
 
 p {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Philosopher', sans-serif;
     font-size: 18px;
     text-align: left;
     color: #000;
@@ -176,7 +175,7 @@ header nav {
 }
 
 header nav a {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Philosopher', sans-serif;
     font-size: 20px;
     color: #fff;
     padding-left: 30px;
