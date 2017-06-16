@@ -1,94 +1,126 @@
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Source+Sans+Pro:600');
-   
+    @import url('https://fonts.googleapis.com/css?family=Crimson+Text|Source+Sans+Pro:600');
+
 /* header footer*/
-    
-    header,
-    footer {
-        background-color: #000;
-        text-align: center;
-        color: #fff;
-        height: 110px
-    }
-    
-   header h1 {
-        font-family: 'Source Sans Pro', sans-serif;
-        font-size: 40px;
-        text-align: center;
-        float: left;
-        color: #fff;
-        margin-left: 30px;
-       padding: 20px;
-    }
+
+header,
+footer {
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    height: 110px
+}
+
+header h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    float: left;
+    color: #fff;
+    margin-left: 30px;
+    padding: 20px;
+}
 
 footer p {
-font-family: 'Source Sans Pro', sans-serif;
-        font-size: 15px;
-        text-align: left;
-        color: #fff;  
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    color: #fff;
 }
+
+
 /* main */
-    h2 {
-        font-family: 'Source Sans Pro', sans-serif;
-        font-size: 30px;
-        text-align: left;
-        color: #000;
-    }
-    
-    p {
-        font-family: 'Source Sans Pro', sans-serif;
-        font-size: 18px;
-        text-align: left;
-        color: #000;
-    }
 
-  
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    color: #000;
+}
 
-    /* Email link style */
-    
-    a[href^="mailto:"] {
-        color: #fff;
-        text-decoration: none;
-    }
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    color: #000;
+}
+
 
 main {
     margin: auto;
 }
 
 
-
 /* -------- =Structure -------*/
+
 * {
-   box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 img {
-  width: 100%;
+    width: 100%;
 }
 
 .container {
-  width: 980px;
-  margin: auto;
+    width: 980px;
+    margin: auto;
 }
 
 .container-fluid {
-  width: 100%;
-  min-width: 760px; /* Adjust as needed */
+    width: 100%;
+    min-width: 760px;
+    /* Adjust as needed */
 }
+
 
 /* -------- =Column Layout -------*/
 
-.col-1  {  width: 8.33333333%;   }
-.col-2  {  width: 16.66666667%;  }
-.col-3  {  width: 25%;           }
-.col-4  {  width: 33.33333333%;  }
-.col-5  {  width: 41.66666667%;  }
-.col-6  {  width: 50%;           }
-.col-7  {  width: 54.33%;        }
-.col-8  {  width: 66.66666667%;  }
-.col-9  {  width: 75%;           } 
-.col-10 {  width: 83.33333333%;  }
-.col-11 {  width: 91.66666667%;  }
-.col-12 {  width: 100%;          }
+.col-1 {
+    width: 8.33333333%;
+}
+
+.col-2 {
+    width: 16.66666667%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33333333%;
+}
+
+.col-5 {
+    width: 41.66666667%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 54.33%;
+}
+
+.col-8 {
+    width: 66.66666667%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33333333%;
+}
+
+.col-11 {
+    width: 91.66666667%;
+}
+
+.col-12 {
+    width: 100%;
+}
 
 .col-1,
 .col-2,
@@ -102,39 +134,47 @@ img {
 .col-10,
 .col-11,
 .col-12 {
-  float: left;
-  padding-right: 10px;
-  padding-left: 10px;
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .row:after {
-  content: " ";
-  display: table;
-  clear: both;
+    content: " ";
+    display: table;
+    clear: both;
 }
 
+
 /*--floats--*/
+
 .float-left {
     float: left;
     margin-right: 10px;
 }
+
 .float-right {
     float: right;
     margin-left: 10px;
 }
 
+
 /*--clear fix hack--*/
+
 .row:after {
     content: " ";
     display: block;
     clear: both;
 }
 
+
 /* ----- =navigation ----- */
+
 header nav {
     float: right;
     margin: 70px;
 }
+
 header nav a {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
@@ -142,30 +182,44 @@ header nav a {
     padding-left: 30px;
     text-decoration: none;
 }
+
 header nav a:link {
     color: #fff;
 }
+
 header nav a:visited {
     color: #f8cd52;
 }
+
 header nav a:hover {
     color: #9d170f;
 }
+
 header nav a:active {
     color: #058c39;
 }
+
+ /*---phone and email---*/
 footer nav a {
     float: right;
-    margin: ;
+    margin: 10px;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    color: #9d170f;
 }
 
+
 /*----images---*/
+
 .scroll {
     background-attachment: scroll;
 }
+
 .fixed {
     background-attachment: fixed;
 }
+
 .full-width-image {
     height: 320px;
     background-image: url(images/Flowers/TruckMulticolorFlowers.jpg);
@@ -173,20 +227,6 @@ footer nav a {
     background-position: center center;
     background-size: cover;
     margin: 0px;
-
-
-/*---phone and email---*/
-a[href^="mailto:"]{
-    color: #9d170f;
-    padding-left: 45px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 15px;
-}
-
-a[href^="tel:"]{
-    color: #9d170f;
-    margin-top; 10px;
-    text-decoration: none;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 15px;
-}
+    
+   
+   
