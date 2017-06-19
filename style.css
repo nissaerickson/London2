@@ -7,17 +7,17 @@ footer {
     background-color: #000;
     text-align: center;
     color: #fff;
-    height: 110px
+    height: 90px
 }
 
 header h1 {
     font-family: 'Kalam', cursive;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     float: left;
     color: #f8cd52;
     margin-left: 90px;
-    padding: 10px;
+    padding: 15px;
 }
 
 footer p {
@@ -33,14 +33,14 @@ footer p {
 
 h2 {
     font-family: 'Kalam', cursive;
-    font-size: 30px;
+    font-size: 22px;
     text-align: left;
     color: #000;
 }
 
 p {
     font-family: 'Kalam', cursive;
-    font-size: 20px;
+    font-size: 18px;
     text-align: left;
     color: #000;
 }
@@ -180,7 +180,7 @@ header nav {
 
 header nav a {
     font-family: 'Kalam', cursive;
-    font-size: 20px;
+    font-size: 18px;
     color: #fff;
     padding-left: 30px;
     text-decoration: none;
