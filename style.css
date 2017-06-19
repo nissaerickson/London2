@@ -53,6 +53,8 @@ main a {
     text-decoration: none;
     color: #9d170f;
 }
+
+
 /* -------- =Structure -------*/
 
 * {
@@ -216,6 +218,13 @@ footer nav a {
     color: #f8cd52;
 }
 
+footer a {
+    text-decoration: none;
+    font-family: 'Kalam', cursive;
+    font-size: 15px;
+    color: #fff;
+}
+
 
 /*----images---*/
 
@@ -235,6 +244,7 @@ footer nav a {
     background-size: cover;
     margin: 0px;
 }
+
 .hero-sunflower {
     height: 300px;
     background-image: url(images/Flowers/ProteaFlowers.jpg);
@@ -243,7 +253,6 @@ footer nav a {
     background-size: cover;
     margin: 0px;
 }
-
 
 .round {
     border-radius: 10px;
