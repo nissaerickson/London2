@@ -49,7 +49,10 @@ main {
     margin: auto;
 }
 
-
+main a {
+    text-decoration: none;
+    color: #9d170f;
+}
 /* -------- =Structure -------*/
 
 * {
@@ -181,7 +184,7 @@ header nav a {
     color: #fff;
     padding-left: 30px;
     text-decoration: none;
-    text-shadow: 0px 0px 12px #000;
+    text-shadow: 5px 0px 5px #000;
 }
 
 header nav a:link {
