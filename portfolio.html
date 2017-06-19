@@ -4,6 +4,14 @@
 <head>
     <title>S. London Schertzer</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+    <!-- AFTER NORMALIZE -->
+    <!-- Styles specific for the lightbox -->
+
+    <link rel="stylesheet" href="fotorama/fotorama.css">
+
+    <!-- - - - - - - - - - - - - - - - - -->
+    <!-- BEFORE STYLE.CSS -->
+
     <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -30,16 +38,28 @@
 
     <!-- main website content here -->
     <main>
-        <div class="full-width-image">
-        </div>
         <div class="container">
+            <div class="row">
+                <h2>Portraits</h2>
+                <div class="fotorama" data-ratio="1200/797" data-nav="thumbs" data-thumbheight="65" data-thumbwidth="100">
+                    <img src="images/peopleportraits/baby.jpg" alt="baby">
+                    <img src="images/peopleportraits/girlsandparrot.jpg" alt="girlsandparrot">
+                    <img src="images/peopleportraits/happyfamily.jpg" alt="happyfamily">
+                </div>
+            </div>
         </div>
 
-        <h2>portfolio</h2>
-
+        <div class="container">
+            <div class="row">
+                <h2>Wedding decorations</h2>
+                <div class="fotorama" data-ratio="1140/594" data-nav="dots">
+                    <img src="images/Flowers/tropicalboquet.jpg" alt="tropicalboquet">
+                    <img src="images/scenery/hangingleia.jpg" alt="hangingleia">
+                </div>
+            </div>
+        </div>
     </main>
 
-    <!-- footer content here -->
     <!-- footer content here -->
     <footer>
         <div class="container-fluid">
@@ -61,6 +81,9 @@
             </div>
         </div>
     </footer>
+    <script type="text/javascript" src="lightbox/jquery.1.11.1.js"></script>
+
+    <script src="fotorama/fotorama.js"></script>
 
 </body>
 
