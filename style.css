@@ -4,14 +4,14 @@
 
 header,
 footer {
-    background-color: #000;
+    background-color: #fff;
     text-align: center;
-    color: #fff;
+    color: #000;
     height: 90px
 }
 
 header {
-    position: fixed;
+    position: xfixed;
     width: 100%;
 }
 
@@ -20,7 +20,7 @@ header h1 {
     font-size: 30px;
     text-align: center;
     float: left;
-    color: #f8cd52;
+    color: #000;
     margin-left: 90px;
     padding: 15px;
 }
@@ -29,7 +29,7 @@ footer p {
     font-family: 'Kalam', cursive;
     font-size: 15px;
     text-align: left;
-    color: #fff;
+    color: #000;
     margin-left: 30px;
 }
 
@@ -193,18 +193,18 @@ header nav {
 header nav a {
     font-family: 'Kalam', cursive;
     font-size: 18px;
-    color: #fff;
+    color: #000;
     padding-left: 30px;
     text-decoration: none;
-    text-shadow: 5px 0px 5px #000;
+    xtext-shadow: 5px 0px 5px #000;
 }
 
 header nav a:link {
-    color: #f8cd52;
+    color: #000;
 }
 
 header nav a:visited {
-    color: #fff;
+    color: #000;
 }
 
 header nav a:hover {
@@ -232,7 +232,7 @@ footer a {
     text-decoration: none;
     font-family: 'Kalam', cursive;
     font-size: 15px;
-    color: #fff;
+    color: #000;
 }
 
 
@@ -246,22 +246,41 @@ footer a {
     background-attachment: fixed;
 }
 
-.hero-truck-flowers {
-    height: 320px;
-    background-image: url(images/Flowers/TruckMulticolorFlowers.jpg);
+.hero-marriott {
+    height: 980px;
+    background-image: url(images/scenery/waileaumarriott.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     margin: 0px;
 }
 
-.hero-sunflower {
+.hero-proteaflowers {
     height: 320px;
     background-image: url(images/Flowers/ProteaFlowers.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     margin: 0px;
+}
+
+.hero-hamoabeach {
+    height: 980px;
+    background-image: url(images/Dogs/hamoabeach.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0px;
+}
+
+.hero-singlelantern {
+    height: 980px;
+    background-image: url(images/scenery/weddingsinglelantern.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0px;
+    min-width: 980px;
 }
 
 .round {
