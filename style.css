@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans|Stalemate');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Josefin+Sans|Open+Sans|Stalemate');
 
 /* header footer*/
 
@@ -10,7 +10,7 @@ footer {
 }
 
 header {
-    background-color: #fff;
+    background-color: #f7f2f4;
     height: 105px;
     width: 100%;
 }
@@ -50,7 +50,7 @@ h3 {
 }
 
 p {
-    font-family: 'Crimson Text', serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 18px;
     text-align: left;
     color: #303963;
