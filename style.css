@@ -27,7 +27,7 @@ header h1 {
 
 footer p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     text-align: left;
     color: #000;
     margin-left: 30px;
@@ -38,16 +38,22 @@ footer p {
 
 h2 {
     font-family: 'Crimson Text', serif;
-    font-size: 20px;
-    color: #000;
+    font-size: 30px;
+    text-align: left;
+    color: #303963;
 }
 
-p,
-{
+h3 {
+    font-family: 'Crimson Text', serif;
+    font-size: 22px;
+    color: #303963;
+}
+
+p {
     font-family: 'Crimson Text', serif;
     font-size: 18px;
     text-align: left;
-    color: #000;
+    color: #303963;
 }
 
 main {
@@ -101,14 +107,14 @@ footer nav a {
     padding: 10px;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     color: #36364f;
 }
 
 footer a {
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     color: #36364f;
 }
 
@@ -124,7 +130,7 @@ footer a {
 }
 
 .hero-fathersonsunset {
-    height: 700px;
+    height: 500px;
     background-image: url(images/peopleportraits/fathersonsunsetset.jpg);
     background-repeat: no-repeat;
     background-position: center center;
