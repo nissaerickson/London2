@@ -44,9 +44,10 @@ h2 {
 }
 
 h3 {
-    font-family: 'Crimson Text', serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 22px;
     color: #303963;
+    text-align: center;
 }
 
 p {
@@ -65,10 +66,6 @@ main {
     padding: 10px 0 0 0;
 }
 
-hr {
-    height: 2px;
-    color: #868caa;
-}
 
 
 /* ----- =navigation ----- */
