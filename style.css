@@ -67,7 +67,6 @@ main {
 }
 
 
-
 /* ----- =navigation ----- */
 
 header nav {
@@ -118,6 +117,18 @@ footer a {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: #36364f;
+}
+
+main a[href^="mailto:"] {
+    color: #3a8cad;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+}
+
+main a[href^="tel:"] {
+    color: #3a8cad;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
 }
 
 
