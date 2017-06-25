@@ -66,6 +66,13 @@ main {
     padding: 10px 0 0 0;
 }
 
+/*---page divider---*/
+hr {
+    height: 40px;
+    background-color: #f7f2f4;
+    border: 0px;
+    width: 100%;
+}
 
 /* ----- =navigation ----- */
 
