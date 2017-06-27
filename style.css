@@ -11,9 +11,8 @@ footer {
 
 header {
     background-color: #f7f2f4;
-    height: 105px;
     width: 100%;
-    min-width: 700px;
+    min-width: 500px;
 }
 
 header h1 {
