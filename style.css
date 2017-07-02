@@ -38,7 +38,7 @@ footer p {
 
 h2 {
     font-family: 'Crimson Text', serif;
-    font-size: 30px;
+    font-size: 24px;
     text-align: left;
     color: #303963;
 }
@@ -171,6 +171,9 @@ main a[href^="tel:"] {
 
 .image-circle {
     border-radius: 50%;
+    width: 70%;
+    height: 70%;
+    margin: 10px 10px 10px 20px;
 }
 
 .social-icon {
@@ -183,6 +186,11 @@ iframe {
     width: 100%;
 }
 
+.londonportrait {
+    width: 75%;
+    height: 75%;
+    margin: 25px 0px 10px 40px;
+}
 
 /* -------- =Structure -------*/
 
